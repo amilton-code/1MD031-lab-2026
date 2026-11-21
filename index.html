@@ -1,1 +1,109 @@
-Hello world
+
+
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+	   <link rel="stylesheet" type="text/css" href="/css/style.css">
+       <title>Page title shown in window title</title>
+       <meta charset="utf-8"/>
+   </head>
+   <body>
+	<header>
+		<img src="https://i.pinimg.com/736x/d6/e7/30/d6e730d8e58d1f7dc21e98154e7d1a12.jpg" alt="Krusty Krab" id="header-img">
+		<h1>Välkommen till BurgerOnline</h1>
+	</header>
+	<main>
+		<section id="order">
+			<h2>Beställ hamburgare</h2>
+			<p class="order-text">Tänk noga innan du beställer</p>
+			<div class="burgers">
+				<div class="burger-item">
+			
+			<h2>The Crabby patty</h2>
+			<img src="https://i.ytimg.com/vi/k5e1HPeusiA/hqdefault.jpg" 
+			style="width: 200px; height: 200px;">
+			<dl>
+    			<dt class="ingredient" id="ingredient">Allergier</dt>
+   				<dd>Laktos, Gluten, Ägg</dd>
+
+    		<dt class="ingredient" id="ingredient">Ingredienser</dt>
+    		<dd>Hemligt</dd>
+			</dl>
+</div>
+<div class="burger-item">
+			<h2>Mr Burgare</h2>
+			<img src="https://t4.ftcdn.net/jpg/10/92/90/11/360_F_1092901172_JSw3e1yHiqf8QwKZoVeEnMQn3uA0HPLI.jpg" 
+			style="width: 200px; height: 200px;">
+			<dl>
+    		<dt class="ingredient" id="ingredient">Allergier</dt>
+   				<dd>Inga</dd>
+
+    <dt class="ingredient" id="ingredient">Ingredienser</dt>
+    <dd>Kärlek</dd>
+</dl>
+
+</div>
+<div class="burger-item">
+
+<h2>Dr Burgare</h2>
+			<img src="https://img.magnific.com/premium-vector/monster-burger-with-teeth-tongue-cartoon-illustration_2296-434.jpg?semt=ais_hybrid&w=740&q=80" 
+			style="width: 200px; height: 200px;">
+			<dl>
+    		<dt class="ingredient" id="ingredient">Allergier</dt>
+    		<dd>Inga</dd>
+
+    		<dt class="ingredient" id="ingredient">Ingredienser</dt>
+    		<dd>RAAAAAH</dd>
+			</dl>
+	</div>
+</div>
+		</section>
+		
+		<section id="info">
+			<h2>Information från kund</h2>
+			<p>Här lämnar du in nödvändig information för leveransen</p>
+			<h3>Leverans:</h3>
+			<p>
+    <label for="first">Full name</label><br>
+    <input type="text" id="firstname" name="fn" required="required" placeholder="First- and last name">
+</p>
+<p>
+	<label for="email">E-mail address</label><br>
+    <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
+</p>
+<p>
+	<label for="street">Street name</label><br>
+    <input type="text" id="street" name="st" required="required" placeholder="Street">
+</p>
+<p>
+	<label for="house">House number</label><br>
+    <input type="text" id="house" name="hn" required="required" placeholder="House">
+</p>
+<p>
+   <label for="recipient">Betalinformation</label><be>
+   <select id="recipient" name="rcp">
+       <option>Kortbetalning</option>
+       <option>Swish</option>
+       <option>Klarna</option>
+       <option>Trustly</option>
+       <option selected="selected">Betala på plats</option>
+   </select>
+</p> <div>Kön</div>
+<label><input type="radio" name="kön" value="vill-inte-delge" checked> Vill inte delge</label>
+<label><input type="radio" name="kön" value="man"> Man</label>
+<label><input type="radio" name="kön" value="kvinna"> Kvinna</label>
+
+<div>
+<button type="submit">
+  <img src="https://img.magnific.com/free-psd/juicy-cheeseburger-gourmet-burger-perfection_632498-25274.jpg?semt=ais_hybrid&w=740&q=80" style="width: 20px; height: 20px;">
+  Send Info
+</button>
+</div>
+		</section>
+	</main>
+	<footer>
+           <p>&copyBurgerOnline</p>
+	<hr>
+       </footer>
+   </body>
+</html>
